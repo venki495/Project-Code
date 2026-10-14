@@ -4,22 +4,22 @@ Secure GSM-Based Thermal Monitoring and Set-Point Control System using LPC2148 (
 
 # Objectives
 
-Monitor temperature and relative humidity in real time.\
+Monitor temperature and relative humidity in real time.
 
-Compare sensor readings with predefined set-points.\
+Compare sensor readings with predefined set-points.
 
-Display sensor readings and system status on an LCD.\
+Display sensor readings and system status on an LCD.
 
-Generate fault indications using an LED or buzzer.\
+Generate fault indications using an LED or buzzer.
 
-Send SMS alerts to an authorized mobile number.\
+Send SMS alerts to an authorized mobile number.
 
-Store set-points, passwords, and mobile numbers in EEPROM.\
+Store set-points, passwords, and mobile numbers in EEPROM.
 
-Support secure remote configuration using SMS commands.\
+Support secure remote configuration using SMS commands.
 
-Allow local set-point and password changes through a keypad.\
+Allow local set-point and password changes through a keypad.
 
-Use UART interrupts for GSM communication.\
+Use UART interrupts for GSM communication.
 
 Include timestamps in fault notifications using the RTC.
