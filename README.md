@@ -23,3 +23,30 @@ Allow local set-point and password changes through a keypad.
 Use UART interrupts for GSM communication.
 
 Include timestamps in fault notifications using the RTC.
+
+
+# Features
+
+Real-Time Monitoring: Continuously reads temperature and humidity from the DHT11 sensor.
+
+Set-Point Comparison: Detects temperature values exceeding the configured limit.
+
+SMS Alerts: Notifies authorized users when abnormal conditions occur.
+
+Password-Protected Commands: Validates SMS commands before performing configuration changes.
+
+Remote Set-Point Modification: Changes the temperature limit through SMS.
+
+Mobile Number Management: Updates the registered alert recipient through an authenticated command.
+
+Remote Sensor Information: Sends current sensor readings through SMS.
+
+Non-Volatile Storage: Preserves configuration data in AT24C256 EEPROM.
+
+Local Configuration: Uses a keypad and LCD to modify settings.
+
+Failed Login Protection: Provides fault indication for incorrect passwords and temporary blocking after three consecutive incorrect local attempts.
+
+Interrupt-Based Communication: Uses UART interrupts for GSM data reception.
+
+Timestamped Alerts: Uses the RTC to associate fault notifications with the time of occurrence.
