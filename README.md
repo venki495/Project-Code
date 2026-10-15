@@ -28,6 +28,11 @@ may be used to restrict remote configuration to authorized users.
 
 ▸ Include timestamps in fault notifications using the RTC.
 
+# BLOCK DIAGRAM
+The diagram below summarizes the main functional blocks. It is conceptual: the exact pin assignments and peripheral
+choices should be confirmed from the circuit schematic and source code.
+<img width="563" height="328" alt="Screenshot 2026-10-15 104908" src="https://github.com/user-attachments/assets/c4b97b36-118e-48b4-8126-d3fd387c0d61" />
+
 
 # FEATURES 
 
