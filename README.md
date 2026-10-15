@@ -1,5 +1,10 @@
-# DESCRIPTION 
-Secure GSM-Based Thermal Monitoring and Set-Point Control System using LPC2148 (ARM7). Monitors temperature and humidity with a DHT11 sensor, stores secure settings in EEPROM via I2C, displays data on an LCD, maintains time using an RTC, and sends SMS alerts through a GSM module when temperature and humidity exceeds the configured threshold.
+# PROJECT OVERVIEW
+The Secure GSM-Based Thermal Monitoring and Set-Point Control System is an embedded project based on the
+LPC2148 ARM7 microcontroller. It reads temperature and humidity from a DHT11 sensor, displays information on an
+LCD, and compares temperature readings against a configurable threshold. When the threshold is exceeded, the
+firmware can send an SMS notification through the M660A GSM module, provided the module is registered and
+communication is working. The system also uses an AT24C256 EEPROM for persistent settings, a keypad for local input, an RTC for date/time where supported, and UART/I2C/GPIO interfaces for peripheral communication. Password-protected SMS commands
+may be used to restrict remote configuration to authorized users.
 
 
 # OBJECTIVES 
