@@ -35,7 +35,6 @@ choices should be confirmed from the circuit schematic and source code.
 <img width="613" height="257" alt="Screenshot 2026-10-15 114018" src="https://github.com/user-attachments/assets/e92d6f0c-0616-47d8-be9d-963cf9d3e6c4" />
 
 
-
 # FEATURES 
 
 ▸ Real-Time Monitoring: Continuously reads temperature and humidity from the DHT11 sensor.
@@ -64,28 +63,10 @@ choices should be confirmed from the circuit schematic and source code.
 
 
 # HARDWRAE REQUIREMENTS
-• LPC2148
 
-• LCD
+<img width="603" height="299" alt="Screenshot 2026-10-15 114507" src="https://github.com/user-attachments/assets/b9d39d9b-7ec4-4c70-9d5a-8a8f2206cc99" />
 
-• AT24C256
-
-• DTH11
-
-• 4X4 MATRIX KEYPAD
-
-• SWITCH
-
-• LED’S
-
-• GSM MODULE (M660A)
-
-• DB-9 CABLE/USB-UART CONVERTER
 
 # SOFTWARE REQUIREMENTS:
-• KEIL C Compiler
 
-• PROGRAMMING IN EMBEDDED C
-
-• Flash Magic
-
+<img width="605" height="220" alt="Screenshot 2026-10-15 114628" src="https://github.com/user-attachments/assets/57f48d90-5623-439d-b174-455491e82bd1" />
