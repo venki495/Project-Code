@@ -3,67 +3,63 @@ Secure GSM-Based Thermal Monitoring and Set-Point Control System using LPC2148 (
 
 
 # OBJECTIVES 
+▸ Monitor temperature and relative humidity in real time.
+▸ Compare sensor readings with predefined set-points.
+▸ Display sensor readings and system status on an LCD.
+▸ Generate fault indications using an LED or buzzer.
 
-Monitor temperature and relative humidity in real time.
+▸ Send SMS alerts to an authorized mobile number.
 
-Compare sensor readings with predefined set-points.
+▸ Store set-points, passwords, and mobile numbers in EEPROM.
 
-Display sensor readings and system status on an LCD.
+▸ Support secure remote configuration using SMS commands.
 
-Generate fault indications using an LED or buzzer.
+▸ Allow local set-point and password changes through a keypad.
 
-Send SMS alerts to an authorized mobile number.
+▸ Use UART interrupts for GSM communication.
 
-Store set-points, passwords, and mobile numbers in EEPROM.
-
-Support secure remote configuration using SMS commands.
-
-Allow local set-point and password changes through a keypad.
-
-Use UART interrupts for GSM communication.
-
-Include timestamps in fault notifications using the RTC.
+▸ Include timestamps in fault notifications using the RTC.
 
 
 # FEATURES 
 
-Real-Time Monitoring: Continuously reads temperature and humidity from the DHT11 sensor.
+▸ Real-Time Monitoring: Continuously reads temperature and humidity from the DHT11 sensor.
 
-Set-Point Comparison: Detects temperature values exceeding the configured limit.
+▸ Set-Point Comparison: Detects temperature values exceeding the configured limit.
 
-SMS Alerts: Notifies authorized users when abnormal conditions occur.
+▸ SMS Alerts: Notifies authorized users when abnormal conditions occur.
 
-Password-Protected Commands: Validates SMS commands before performing configuration changes.
+▸ Password-Protected Commands: Validates SMS commands before performing configuration changes.
 
-Remote Set-Point Modification: Changes the temperature limit through SMS.
+▸ Remote Set-Point Modification: Changes the temperature limit through SMS.
 
-Mobile Number Management: Updates the registered alert recipient through an authenticated command.
+▸ Mobile Number Management: Updates the registered alert recipient through an authenticated command.
 
-Remote Sensor Information: Sends current sensor readings through SMS.
+▸ Remote Sensor Information: Sends current sensor readings through SMS.
 
-Non-Volatile Storage: Preserves configuration data in AT24C256 EEPROM.
+▸ Non-Volatile Storage: Preserves configuration data in AT24C256 EEPROM.
 
-Local Configuration: Uses a keypad and LCD to modify settings.
+▸ Local Configuration: Uses a keypad and LCD to modify settings.
 
-Failed Login Protection: Provides fault indication for incorrect passwords and temporary blocking after three consecutive incorrect local attempts.
+▸ Failed Login Protection: Provides fault indication for incorrect passwords and temporary blocking after three consecutive incorrect local attempts.
 
-Interrupt-Based Communication: Uses UART interrupts for GSM data reception.
+▸ Interrupt-Based Communication: Uses UART interrupts for GSM data reception.
 
-Timestamped Alerts: Uses the RTC to associate fault notifications with the time of occurrence.
+▸ Timestamped Alerts: Uses the RTC to associate fault notifications with the time of occurrence.
 
 
 # HARDWRAE REQUIREMENTS
-LPC2148
-LCD
-AT24C256
-DTH11
-4X4 MATRIX KEYPAD
-SWITCH
-LED’S
-GSM MODULE (M660A)
-DB-9 CABLE/USB-UART CONVERTER
+• LPC2148
+• LCD
+• AT24C256
+• DTH11
+• 4X4 MATRIX KEYPAD
+• SWITCH
+• LED’S
+• GSM MODULE (M660A)
+• DB-9 CABLE/USB-UART CONVERTER
 
 # SOFTWARE REQUIREMENTS:
-KEIL C Compiler
-PROGRAMMING IN EMBEDDED C
-Flash Magic
+• KEIL C Compiler
+• PROGRAMMING IN EMBEDDED C
+• Flash Magic
