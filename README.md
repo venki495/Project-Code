@@ -69,13 +69,30 @@ Pin verification checklist:
 ▸ Verify common ground and voltage compatibility across modules.
 
 # WORKING PRINCIPLE
+
  <img width="536" height="339" alt="Screenshot 2026-10-15 120105" src="https://github.com/user-attachments/assets/7b718599-9698-4083-a18d-a78d05c78e7c" />
 
  # OUTPUT
+
+<img width="1139" height="734" alt="n" src="https://github.com/user-attachments/assets/65b5a9be-e98e-4fed-956b-756b66dfa905" />
+
+ 
  # 1.LCD Reading
- <img width="205" height="69" alt="Screenshot 2026-10-15 120315" src="https://github.com/user-attachments/assets/06277584-e4cf-44cc-9183-334cf5f6d4cf" />
+
+<img width="205" height="69" alt="Screenshot 2026-10-15 120315" src="https://github.com/user-attachments/assets/a0207b36-d64a-4516-8e7a-e74adcc4ba00" />
+
 
  # 2.Keypad Menu
+ 
+ when the interrupt occured first
+ 
+<img width="858" height="367" alt="v" src="https://github.com/user-attachments/assets/dc860e6c-28ca-4597-a813-19c0688d101c" />
+
+selecting the change set point
+
+<img width="694" height="276" alt="&#39;" src="https://github.com/user-attachments/assets/0c825911-85bc-429a-9a45-efc13de17290" />
+
+
 
  # 3.SMS Alert
 
