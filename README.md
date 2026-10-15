@@ -31,7 +31,9 @@ may be used to restrict remote configuration to authorized users.
 # BLOCK DIAGRAM
 The diagram below summarizes the main functional blocks. It is conceptual: the exact pin assignments and peripheral
 choices should be confirmed from the circuit schematic and source code.
-<img width="563" height="328" alt="Screenshot 2026-10-15 104908" src="https://github.com/user-attachments/assets/c4b97b36-118e-48b4-8126-d3fd387c0d61" />Interfaces shown conceptually; verify exact pin mapping against firmware and schematic
+<img width="563" height="328" alt="Screenshot 2026-10-15 104908" src="https://github.com/user-attachments/assets/c4b97b36-118e-48b4-8126-d3fd387c0d61" />
+<img width="613" height="257" alt="Screenshot 2026-10-15 114018" src="https://github.com/user-attachments/assets/e92d6f0c-0616-47d8-be9d-963cf9d3e6c4" />
+
 
 
 # FEATURES 
