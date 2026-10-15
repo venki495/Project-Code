@@ -4,8 +4,11 @@ Secure GSM-Based Thermal Monitoring and Set-Point Control System using LPC2148 (
 
 # OBJECTIVES 
 ▸ Monitor temperature and relative humidity in real time.
+
 ▸ Compare sensor readings with predefined set-points.
+
 ▸ Display sensor readings and system status on an LCD.
+
 ▸ Generate fault indications using an LED or buzzer.
 
 ▸ Send SMS alerts to an authorized mobile number.
@@ -50,16 +53,27 @@ Secure GSM-Based Thermal Monitoring and Set-Point Control System using LPC2148 (
 
 # HARDWRAE REQUIREMENTS
 • LPC2148
+
 • LCD
+
 • AT24C256
+
 • DTH11
+
 • 4X4 MATRIX KEYPAD
+
 • SWITCH
+
 • LED’S
+
 • GSM MODULE (M660A)
+
 • DB-9 CABLE/USB-UART CONVERTER
 
 # SOFTWARE REQUIREMENTS:
 • KEIL C Compiler
+
 • PROGRAMMING IN EMBEDDED C
+
 • Flash Magic
+
